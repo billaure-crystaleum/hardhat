@@ -176,6 +176,8 @@ module.exports = {
         sokol: "api-key",
         aurora: "api-key",
         auroraTestnet: "api-key",
+        crystaleum: "api-key",
+        goldenPalace: "api-key",
     }
   }
 };
