@@ -191,6 +191,13 @@ export const chainConfig: ChainConfig = {
       browserURL: "https://blockscout.com/poa/sokol",
     },
   },
+  crystaleum: {
+    chainId: 103090,
+    urls: {
+      apiURL: "https://scan.crystaleum.org/api",
+      browserURL: "https://scan.crystaleum.org/",
+    },
+  },
   aurora: {
     chainId: 1313161554,
     urls: {
