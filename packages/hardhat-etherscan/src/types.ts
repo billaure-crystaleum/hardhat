@@ -37,7 +37,10 @@ type Chain =
   | "sokol"
   // aurora
   | "aurora"
-  | "auroraTestnet";
+  | "auroraTestnet"
+  // crystaleum
+  | "crystaleum"
+  | "goldenPalace";
 
 export type ChainConfig = {
   [Network in Chain]: EtherscanChainConfig;
